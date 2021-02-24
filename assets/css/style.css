@@ -1,13 +1,16 @@
+/* Universal settings for Box sizing, padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background colour for the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* This is set's the color and font family for everything in the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/* This adds makes the nav bar at the top of the page stylised to be on the right hand side at all times, as well as make sure it's easily readable */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* This adds the big image. It also makes everything fall beneath it in seamless manner */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +74,14 @@ p {
     margin-left: 25px;
 }
 
+/* This makes sure all the content is split and allows for easier reading */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This section adds the different font sizes to the box on the right, and it's different sections */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +108,7 @@ p {
     color: #ffffff;
 }
 
+/* This sets the H3 tags to be center, as well as seperates it clearly to the main content */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +124,7 @@ p {
     text-align: center;
 }
 
+/* This set's the boxes apart from the content sections to make it easier to understand and read the content */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +143,7 @@ p {
     max-width: 150px;
 }
 
+/* Sets the different font sizes for boxes on the main part of the website  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +171,7 @@ p {
     color: #ffffff;
 }
 
+/* This sets the image sizes for the differnt images in the content boxes. */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +184,7 @@ p {
     max-height: 200px;
 }
 
+/* This Sets the H2 tags to be universal and set across the different classes */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +200,7 @@ p {
     font-size: 36px;
 }
 
+/* This allows the footer to be easily readable, as well sets it to a more accessable setting */
 .footer {
     padding: 30px;
     clear: both;
